@@ -1,0 +1,194 @@
+body {
+  background-color: rgba(26, 26, 26, 1);
+  margin: 0;
+}
+
+.topo {
+  background-color: rgba(13, 13, 13, 1);
+  width: 100vw;
+  height: 25vh;
+}
+
+.topo input {
+  width: 638px;
+  height: 30px;
+  padding: 16px;
+  position: relative;
+  margin-left: 35%;
+  margin-top: 8%;
+  background-color: rgba(38, 38, 38, 1);
+  border: 1px solid rgba(13, 13, 13, 1);
+  border-radius: 8px;
+  color: #f2f2f2;
+
+}
+
+.topo img {
+  width: 7%;
+  margin-left: 45%;
+  margin-top: 3%;
+  object-fit: scale-down;
+  position: absolute;
+}
+
+.btnAdd {
+  width: 95px;
+  height: 59px;
+  padding: 20px;
+  position: relative;
+  margin-left: 62%;
+  margin-top: -2.3%;
+  border-radius: 8px;
+  background-color: rgba(30, 111, 159, 1);
+  color: #f2f2f2;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btnAdd:hover {
+  background-color: rgba(78, 168, 222, 1);
+}
+
+.btnAdd svg {
+  margin-left: 5px;
+}
+
+
+.container span {
+  margin-left: 35%;
+  position: relative;
+  color: #f2f2f2;
+  margin-right: -14%;
+  font-family: sans-serif;
+
+}
+
+.container {
+  margin-top: 3%;
+}
+
+.container .created-tasks {
+  color: rgba(78, 168, 222, 1);
+}
+
+.container .concluded {
+  color: rgba(130, 132, 250, 1);
+}
+
+.task {
+  background-color: rgba(38, 38, 38, 1);
+  border: 1px solid rgba(51, 51, 51, 1);
+  color: #f2f2f2;
+  width: 30%;
+  padding: 23px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 35%;
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  white-space: nowrap;
+}
+
+.task button {
+  background: none;
+  border: none;
+
+}
+
+.btn-delete {
+  margin-left: 29%;
+  position: absolute;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.btn-delete :hover {
+  background-color: #333333;
+  width: 20px;
+  padding: 2px;
+  border-radius: 4px;
+  color: #E25858;
+}
+
+
+.container-empty {
+  border-top: 1px solid #333333;
+  border-radius: 8px;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 1%;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.container-empty p {
+  color: #808080;
+  font-family: sans-serif;
+  /* position: absolute; */
+  text-align: center;
+
+}
+
+.container-empty .text-tasks {
+  font-weight: bolder;
+}
+
+
+.container-empty img {
+  display: flex;
+  position: relative;
+  margin-bottom: 2%;
+  margin-top: 10%;
+
+}
+
+
+.cont-tasks {
+  background-color: #333333;
+  color: #d9d9d9;
+  width: 24px;
+  height: 19px;
+  border-radius: 1000px;
+  padding: 2px, 8px, 2px, 8px;
+  text-align: center;
+  display: inline-block;
+}
+
+.cont-select {
+  background-color: #333333;
+  color: #d9d9d9;
+  width: 50px;
+  height: 19px;
+  border-radius: 1000px;
+  padding: 2px, 8px, 2px, 8px;
+  text-align: center;
+  display: inline-block;
+
+}
+
+.circle-icon:hover {
+  background-color: #333333;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.check-icon {
+  fill: #5E60CE;
+  background-color: #f2f2f2;
+  border-radius: 150%;
+}
+
+.check-icon:hover {
+  fill: #8284FA;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.inputTask::placeholder {
+  color: #d9d9d9;
+  font-size: 18px;
+}
